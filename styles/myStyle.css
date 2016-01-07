@@ -1,0 +1,10 @@
+
+
+.newsImgRight {
+	float: right;
+  margin: 0 0 1em 1em;
+}
+.newsImgLeft {
+  float: left;
+  margin: 0 1em 1em 0;
+}

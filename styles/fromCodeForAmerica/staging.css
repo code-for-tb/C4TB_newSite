@@ -1,0 +1,334 @@
+a.button-invert.white,
+input[type="submit"].button-invert.white,
+button.button-invert.white {
+  color: white !important;
+  border-color: white !important;
+  border-bottom: 1px solid white !important; }
+
+/* Global Footer - main - border */
+.global-footer {
+  border-top: none; }
+
+.global-footer .search-global {
+  margin: 0; }
+
+nav.nav-footer {
+  margin-top: 30px; }
+
+/* Global Footer - main - signup form */
+.signup-global {
+  margin: 32px 0;
+  color: white; }
+
+.signup-global h4 {
+  display: inline-block;
+  color: white;
+  margin-right: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.signup-global h4 i:before {
+  margin-right: 10px;
+  font-size: 24px; }
+
+.signup-global input[type="email"] {
+  background-color: transparent;
+  color: white;
+  font-size: 14px;
+  line-height: inherit;
+  margin: 0;
+  margin-bottom: 8px;
+  height: 40px;
+  padding: 0px 10px;
+  text-transform: none;
+  box-sizing: content-box;
+  border-radius: 0px;
+  width: 90%;
+  border-color: white;
+  border: 1px solid white; }
+  .signup-global input[type="email"]::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: white; }
+  .signup-global input[type="email"]:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: white;
+    opacity: 1; }
+  .signup-global input[type="email"]::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: white;
+    opacity: 1; }
+  .signup-global input[type="email"]:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: white; }
+
+.signup-global input[type="email"]:focus {
+  border-color: white;
+  border-color: rgba(255, 255, 255, 0.5); }
+
+.signup-global input[type="submit"] {
+  margin-bottom: 8px; }
+
+/* Global footer - layout (screens above 40em) */
+@media all and (min-width: 40em) {
+  .signup-global {
+    margin-left: 0; }
+
+  .signup-global input[type="email"] {
+    width: 300px;
+    margin-right: 8px; } }
+/* Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  overflow: hidden;
+  outline: 0;
+  background-color: rgba(0, 0, 0, 0.5); }
+
+body.modal-active .js-container {
+  height: 100vh;
+  overflow: hidden; }
+body.modal-active .modal {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  display: block; }
+body.modal-active .modal .modal-dialog {
+  position: relative;
+  box-sizing: border-box;
+  background-color: white;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 25px;
+  padding: 25px; }
+body.modal-active .modal .modal-exit {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-weight: bold;
+  font-size: 20px; }
+
+@media all and (min-width: 40em) {
+  body.modal-active .modal .modal-dialog {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 100px;
+    padding: 4%; } }
+@media all and (min-width: 40em) {
+  .masthead-l .page-title,
+  .masthead-s .page-title {
+    font-size: 57px; } }
+.global-header-custom {
+  margin-bottom: 0; }
+
+.masthead.masthead-custom {
+  background-color: #004b6a;
+  padding-top: 30px;
+  color: white; }
+  .masthead.masthead-custom:before {
+    min-height: 100%;
+    background-size: cover;
+    opacity: 0.3;
+    display: block; }
+  .masthead.masthead-custom .page-title {
+    font-size: 35px;
+    line-height: 40px;
+    letter-spacing: -1px;
+    margin-top: 0;
+    text-transform: none;
+    color: white; }
+  .masthead.masthead-custom .page-overline {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px; }
+  .masthead.masthead-custom .page-description {
+    font-family: "Interstate", "Gotham A", "Gotham B", "Open Sans Regular", "Verdana", "Helvetica", "Arial";
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center; }
+  .masthead.masthead-custom p {
+    float: none; }
+  .masthead.masthead-custom .description {
+    position: relative;
+    z-index: 3;
+    margin-top: 100px; }
+  .masthead.masthead-custom .arrow img {
+    width: 30px;
+    margin-bottom: 20px; }
+  .masthead.masthead-custom .arrow img:hover {
+    opacity: 0.5;
+    cursor: pointer; }
+  @media all and (min-width: 40em) {
+    .masthead.masthead-custom .page-title {
+      font-size: 48px;
+      line-height: 58px;
+      letter-spacing: -1px; }
+    .masthead.masthead-custom .page-overline {
+      font-size: 16px;
+      letter-spacing: 4px; }
+    .masthead.masthead-custom .page-description {
+      font-size: 20px;
+      line-height: 35px; } }
+
+.layout-breve:after,
+.layout-semibreve:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+@media all and (min-width: 40em) {
+  .layout-whole {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0; }
+    .layout-whole:before, .layout-whole:after {
+      content: "";
+      display: table;
+      clear: both; } }
+.marker-safety-justice, .marker-health, .marker-economic-development, .marker-civic-engagement {
+  display: block;
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
+  background-color: #cf1b41;
+  margin-left: auto;
+  margin-right: auto; }
+  .marker-safety-justice:before, .marker-health:before, .marker-economic-development:before, .marker-civic-engagement:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: 60%;
+    background-position: center center;
+    background-repeat: no-repeat; }
+
+.marker-safety-justice:before {
+  background-image: url("/media/images/icons/safety.png");
+  padding-top: 5%;
+  background-size: 55%; }
+
+.marker-health:before {
+  background-image: url("/media/images/icons/health.png");
+  padding-top: 5%;
+  background-size: 65%; }
+
+.marker-economic-development:before {
+  background-image: url("/media/images/icons/economic.png"); }
+
+.marker-civic-engagement:before {
+  background-image: url("/media/images/icons/info.png"); }
+
+.marker-blue {
+  background-color: #cf1b41; }
+
+.marker-blue {
+  background-color: #399fd3; }
+
+.marker-green {
+  background-color: #00a175; }
+
+.marker-orange {
+  background-color: #e87d2b; }
+
+.marker-purple {
+  background-color: #69579C; }
+
+.marker-big {
+  width: 80px;
+  height: 80px; }
+
+.marker-left {
+  margin-left: 0;
+  margin-right: 0; }
+
+.heading-tight {
+  margin-bottom: 1em;
+  padding-bottom: 0.1em; }
+
+.card {
+  border: 1px solid #e5e5e5;
+  padding: 1em;
+  background-color: #fcfcfc; }
+  .card h5 {
+    font-weight: 700;
+    text-transform: none;
+    font-size: 1.3em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em; }
+
+.card img {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  width: calc(100% + 2em + 2px);
+  max-width: calc(100% + 2em + 2px);
+  margin-left: calc(-1em + -1px);
+  margin-top: calc(-1em + -1px); }
+
+.card-inverse {
+  border-color: white;
+  background-color: transparent;
+  color: white; }
+
+i.symbol {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: #444444; }
+
+i.symbol-invert {
+  background-color: transparent !important;
+  border: 1px solid white;
+  border-radius: 100%; }
+
+i.symbol-rocket {
+  background-image: url("http://style.codeforamerica.org/style/images/badge-rocket.svg");
+  background-size: 70%;
+  background-position: 40% 70%;
+  background-repeat: no-repeat;
+  background-color: #e87d2b; }
+
+i.symbol-glasses {
+  background-image: url("http://style.codeforamerica.org/style/images/badge-glasses.svg");
+  background-size: 85%;
+  background-position: 55% 55%;
+  background-repeat: no-repeat;
+  background-color: #004b6a; }
+
+i.symbol-gov {
+  background-image: url("http://style.codeforamerica.org/style/images/badge-gov.svg");
+  background-size: 55%;
+  background-position: 50% 40%;
+  background-repeat: no-repeat;
+  background-color: #69579C; }
+
+i.symbol-key {
+  background-image: url("http://style.codeforamerica.org/style/images/badge-fellowship.svg");
+  background-size: 40%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-color: #aa1c3a; }
+
+ul.checkmark {
+  padding-top: 0;
+  margin-top: 0; }
+
+ul.checkmark li {
+  text-indent: -2em;
+  padding-left: 4em;
+  line-height: 30px; }
+
+ul.checkmark li:before {
+  font-family: 'ico-moon';
+  content: "\e370";
+  float: left;
+  width: 2em; }
