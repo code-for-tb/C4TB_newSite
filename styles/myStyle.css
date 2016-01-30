@@ -1,4 +1,12 @@
+body {
+  padding-top: 20px;
+}
 
+.masthead {
+	background-color: #9900ff;
+	border-radius: 6px;
+	text-align: center;
+}
 
 .newsImgRight {
 	float: right;
